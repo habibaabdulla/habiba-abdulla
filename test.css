@@ -1,0 +1,27 @@
+
+.continar{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(300px,auto));
+gap: 50px;
+padding: 50px;
+
+}
+h1{
+    text-align: center;
+}
+.card{
+    background-color: rgb(255, 255, 255);  
+    padding: 20px;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+}
+body{
+    background-color: rgb(163, 255, 247);
+    padding: 100px;
+}
+.card:hover{
+    transform: scaleX(1.2);
+}
